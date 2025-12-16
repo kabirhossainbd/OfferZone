@@ -1,0 +1,37 @@
+name: versity_project
+description: "A modern e-commerce Flutter application."
+publish_to: 'none'
+
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # State Management
+  get: ^4.6.6
+  
+  # WebView for payment
+  webview_flutter: ^4.10.0
+  
+  # Animations
+  flutter_staggered_animations: ^1.1.1
+  
+  # Cached Network Images
+  cached_network_image: ^3.4.1
+  
+  # Google Fonts
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
