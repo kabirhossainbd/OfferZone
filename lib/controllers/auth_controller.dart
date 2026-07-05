@@ -7,8 +7,8 @@ class AuthController extends GetxController {
   final RxBool obscurePassword = true.obs;
 
   // Dummy credentials
-  static const String dummyEmail = 'user@example.com';
-  static const String dummyPassword = 'password123';
+  static const String dummyEmail = 'user@gmail.com';
+  static const String dummyPassword = '123456';
 
   void togglePasswordVisibility() {
     obscurePassword.value = !obscurePassword.value;
